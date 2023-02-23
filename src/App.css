@@ -1,0 +1,40 @@
+.square {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.select-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 5px 10px;
+}
+
+.squares-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: rgb(56, 155, 194);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+.hovered-square {
+  background-color: blanchedalmond;
+  color: darkgoldenrod;
+  padding: 10px 20px;
+  border: 1px solid darkgoldenrod;
+}
+
+.hovered-list {
+  display: grid;
+  list-style: none;
+  grid-gap: 10px;
+}
